@@ -1,0 +1,104 @@
+.page {
+}
+.wrapper {
+}
+.portfolio {
+  
+}
+.portfolio__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: calc($Index * 4);
+}
+.portfolio__heading {
+  font-size: calc($Index * 2.13);
+  line-height: 1.1;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.portfolio__button {
+  background-color: $White;
+  color: $Black;
+  border: 1px solid $Black;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  font-size: calc($Index * 0.67);
+  line-height: 1;
+  font-family: Alata;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: 0.4s;
+  &:hover {
+    background-color: $Black;
+    color: $White;
+    transition: 0.4s;
+  }
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: calc($Index * 1.2);
+  margin-bottom: calc($Index * 8);
+}
+.gallery__card {
+  width: calc($Index * 11.38); //256
+  height: calc($Index * 20); // 450
+  display: flex;
+  flex-direction: column-reverse;
+  padding: calc($Index * 1.76);
+  position: relative;
+  background: transparent;
+  transition: 0.4s;
+}
+.gallery__card:hover {
+  background: rgba(#fff, 0.5);
+  transition: 0.4s;
+  .card__name {
+    color: $Black;
+  }
+}
+.card__name {
+  font-size: calc($Index * 1.45);
+  line-height: 1.1;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $White;
+}
+.carg__image {
+}
+
+._earth {
+  background: center / cover no-repeat
+    url("../images/desktop/image-deep-earth.jpg");
+}
+._arcade {
+  background: center / cover no-repeat
+    url("../images/desktop/image-night-arcade.jpg");
+}
+._soccer {
+  background: center / cover no-repeat
+    url("../images/desktop/image-soccer-team.jpg");
+}
+._grid {
+  background: center / cover no-repeat url("../images/desktop/image-grid.jpg");
+}
+._vr {
+  background: center / cover no-repeat
+    url("../images/desktop/image-from-above.jpg");
+}
+._borealis {
+  background: center / cover no-repeat
+    url("../images/desktop/image-pocket-borealis.jpg");
+}
+._curiosity {
+  background: center / cover no-repeat
+    url("../images/desktop/image-curiosity.jpg");
+}
+._fisheye {
+  background: center / cover no-repeat
+    url("../images/desktop/image-fisheye.jpg");
+}

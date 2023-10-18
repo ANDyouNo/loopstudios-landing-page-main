@@ -1,0 +1,40 @@
+.page {
+}
+.wrapper {
+  // border: 1px solid red;
+}
+.introduce {
+  margin-top: calc($Index * 7.1);
+  margin-bottom: calc($Index * 7.74);
+  padding-bottom: calc($Index * 4.6);
+}
+.introduce__image {
+  position: absolute;
+  width: calc($Index * 34);
+}
+.introduce__text {
+  top: calc($Index * 9);
+  left: calc($Index * 24);
+  //top: 172px;
+  // left: 52%;
+  position: relative;
+  padding: calc($Index * 4.27) 0 calc($Index * 4.5) calc($Index * 4.27);
+  //padding: 96px 0 100px 96px;
+  width: 48%;
+  background-color: $White;
+  .introduce__heading {
+    font-size: calc($Index * 2.13);
+    line-height: 1.1;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .introduce__paragraph {
+    font-family: Alata;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: $Dark-Gray;
+    font-size: calc($Index * 0.67);
+  }
+}
+

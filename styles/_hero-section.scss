@@ -1,0 +1,58 @@
+nav {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  .nav__link {
+    font-family: Alata;
+    text-decoration: none;
+    font-size: calc($Index * 0.68);
+    color: $White;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      height: 3px;
+      background: $White;
+      border-radius: 5px;
+      transform: scaleX(0);
+      transition: transform .5s;
+    }
+    &:hover::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+._hero-section {
+  background: center / cover no-repeat url("../images/desktop/image-hero.jpg"),
+}
+.hero__header {
+  margin-top: calc($Index * 2.76);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hero__heading {
+  color: $White;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 2px solid $White;
+  font-size: calc($Index * 3.2);
+  width: calc($Index * 31);
+  padding: 30px;
+  line-height: 1.1;
+  margin: calc($Index * 5.4) 0 calc($Index * 6.5) 0;
+  // margin: 120px 0 146px 0;
+}

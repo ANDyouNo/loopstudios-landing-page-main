@@ -1,0 +1,28 @@
+// 1440 -> 1024
+
+@media screen and (max-width: 1200px) {
+  .gallery__card {
+    width: calc($Index * 11); //256
+    height: calc($Index * 20); // 450
+  }
+}
+
+// desktop -> tablet
+@media screen and (max-width: 820px) {
+  .introduce__text {
+    left: calc($Index * 20);
+    .introduce__heading {
+      font-size: calc($Index * 1.7);
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: inline-block
+  }
+}
