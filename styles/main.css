@@ -362,6 +362,7 @@ nav .nav__link:hover::after {
   transition: 0.4s;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .closed {
