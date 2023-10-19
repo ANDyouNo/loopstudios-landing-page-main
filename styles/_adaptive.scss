@@ -17,12 +17,164 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
   nav {
     display: none;
   }
   .hamburger {
-    display: inline-block
+    display: inline-block;
+  }
+
+  ._hero-section {
+    background: center / cover no-repeat url("../images/mobile/image-hero.jpg");
+  }
+  .hero {
+    height: 100vh;
+    display: block;
+  }
+  .hero__heading {
+    margin: calc($Index * 22) auto 0 auto;
+    width: calc($Index * 26);
+    font-size: calc($Index * 3);
+  }
+
+
+  .introduce {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: calc($Index * 6);
+    padding-bottom: 0;
+  }
+  .introduce__image {
+    position: inherit;
+    width: calc($Index * 34);
+  }
+  .introduce__text {
+    top: 0;
+    left: 0;
+    position: relative;
+    padding: calc($Index * 4.27) calc($Index * 1.5) calc($Index * 4.27)
+      calc($Index * 1.5);
+    width: 100%;
+    .introduce__heading {
+      font-size: calc($Index * 3);
+      text-align: center;
+    }
+    .introduce__paragraph {
+      line-height: 2;
+      font-size: calc($Index * 1.3);
+      text-align: center;
+    }
+  }
+
+  .portfolio__button {
+    display: none;
+  }
+  .portfolio__header {
+    justify-content: center;
+  }
+  .portfolio__heading {
+    font-size: calc($Index * 3);
+  }
+  .gallery {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: calc($Index * 2);
+    align-items: center;
+  }
+  .gallery__card {
+    width: calc($Index * 30); //416
+    height: calc($Index * 11.38); // 152
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card__name {
+    font-size: calc($Index * 2);
+    width: calc($Index * 12);
+  }
+  ._mobile {
+    display: block;
+    padding: calc($Index * 1.5) calc($Index * 3) calc($Index * 1.5) calc($Index * 3);
+    font-size: calc($Index * 1.5);
+    font-weight: 300;
+  }
+  ._earth {
+    background: center / cover no-repeat
+      url("../images/mobile/image-deep-earth.jpg");
+  }
+  ._arcade {
+    background: center / cover no-repeat
+      url("../images/mobile/image-night-arcade.jpg");
+  }
+  ._soccer {
+    background: center / cover no-repeat
+      url("../images/mobile/image-soccer-team.jpg");
+  }
+  ._grid {
+    background: center / cover no-repeat url("../images/mobile/image-grid.jpg");
+  }
+  ._vr {
+    background: center / cover no-repeat
+      url("../images/mobile/image-from-above.jpg");
+  }
+  ._borealis {
+    background: center / cover no-repeat
+      url("../images/mobile/image-pocket-borealis.jpg");
+  }
+  ._curiosity {
+    background: center / cover no-repeat
+      url("../images/mobile/image-curiosity.jpg");
+  }
+  ._fisheye {
+    background: center / cover no-repeat
+      url("../images/mobile/image-fisheye.jpg");
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: calc($Index * 1.8);
+    margin-bottom: calc($Index * 1);
+    justify-content: space-between;
+    align-items: center;
+  }
+  ._footer-header {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    img {
+      width: calc($Index * 12);
+    }
+    nav {
+      margin-top: calc($Index * 1.8);
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      .nav__link {
+        font-size: calc($Index * 1.2);
+      }
+    }
+  }
+  .copyright-col {
+    align-items: center;
+    margin-top: calc($Index * 1.8);
+    justify-content: center;
+    width: 100%;
+  }
+  .socials {
+    margin-top: calc($Index * 2.2);
+    gap: calc($Index * 1.5);
+  }
+  .social__img {
+    width: calc($Index * 2);
+    height: calc($Index * 2);
+    margin-left: 0;
+  }
+  .copyright {
+    margin-top: calc($Index * 1.8);
+    margin-bottom: calc($Index * 1.8);
+    font-size: calc($Index * 1.2);
   }
 }
