@@ -10,9 +10,11 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a good understanding of HTML and CSS and a basic understanding of JavaScript.**
 
-<font color="#6BD600">I tried to make a completely flex page</font>
+## I tried to make a completely flex page
 
-<font color="#990404">Not supported:</font>
+
+Not supported:
+
 
 Non-standard aspect ratios for mobile devices. like Galaxy Fold.
 Surface Pro.
