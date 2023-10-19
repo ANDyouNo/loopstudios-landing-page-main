@@ -353,7 +353,7 @@ nav .nav__link:hover::after {
 
 .menu {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
