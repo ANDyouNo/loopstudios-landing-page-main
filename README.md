@@ -10,11 +10,9 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a good understanding of HTML and CSS and a basic understanding of JavaScript.**
 
-## I tried to make a completely flex page
-
+### I tried to make a completely flex page
 
 Not supported:
 
-
-Non-standard aspect ratios for mobile devices. like Galaxy Fold.
-Surface Pro.
+- Non-standard aspect ratios for mobile devices. like Galaxy Fold.
+- Surface Pro.
