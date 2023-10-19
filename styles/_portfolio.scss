@@ -3,7 +3,6 @@
 .wrapper {
 }
 .portfolio {
-  
 }
 .portfolio__header {
   display: flex;
@@ -43,9 +42,9 @@
   gap: calc($Index * 1.2);
   margin-bottom: calc($Index * 8);
 }
-.gallery__card {
-  width: calc($Index * 11.38); //256
-  height: calc($Index * 20); // 450
+.card__content {
+  width: calc($Index * 11.38);
+  height: calc($Index * 20);
   display: flex;
   flex-direction: column-reverse;
   padding: calc($Index * 1.76);
@@ -53,7 +52,7 @@
   background: transparent;
   transition: 0.4s;
 }
-.gallery__card:hover {
+.card__content:hover {
   background: rgba(#fff, 0.5);
   transition: 0.4s;
   .card__name {
@@ -67,8 +66,6 @@
   font-weight: 400;
   text-transform: uppercase;
   color: $White;
-}
-.carg__image {
 }
 ._mobile {
   display: none;

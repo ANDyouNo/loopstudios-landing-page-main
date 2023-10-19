@@ -1,9 +1,9 @@
 // 1440 -> 1024
 
 @media screen and (max-width: 1200px) {
-  .gallery__card {
-    width: calc($Index * 11); //256
-    height: calc($Index * 20); // 450
+  .card__content {
+    width: calc($Index * 11);
+    height: calc($Index * 20);
   }
 }
 
@@ -17,7 +17,11 @@
   }
 }
 
+// mobile
 @media screen and (max-width: 600px) {
+  .menu {
+    display: flex;
+  }
   nav {
     display: none;
   }
@@ -37,7 +41,6 @@
     width: calc($Index * 26);
     font-size: calc($Index * 3);
   }
-
 
   .introduce {
     display: flex;
@@ -82,9 +85,9 @@
     gap: calc($Index * 2);
     align-items: center;
   }
-  .gallery__card {
-    width: calc($Index * 30); //416
-    height: calc($Index * 11.38); // 152
+  .card__content {
+    width: calc($Index * 30);
+    height: calc($Index * 11.38);
     display: flex;
     flex-direction: column-reverse;
   }
@@ -94,7 +97,8 @@
   }
   ._mobile {
     display: block;
-    padding: calc($Index * 1.5) calc($Index * 3) calc($Index * 1.5) calc($Index * 3);
+    padding: calc($Index * 1.5) calc($Index * 3) calc($Index * 1.5)
+      calc($Index * 3);
     font-size: calc($Index * 1.5);
     font-weight: 300;
   }
@@ -111,7 +115,8 @@
       url("../images/mobile/image-soccer-team.jpg");
   }
   ._grid {
-    background: center / cover no-repeat url("../images/mobile/image-grid.jpg");
+    background: center / cover no-repeat 
+      url("../images/mobile/image-grid.jpg");
   }
   ._vr {
     background: center / cover no-repeat

@@ -9,21 +9,27 @@
 @import "_portfolio";
 @import "_footer";
 
-
 ::-webkit-scrollbar {
-  width: 0; }
+  width: 0;
+}
 
 .page {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .wrapper {
   max-width: calc($Index * 52.2);
   width: 100%;
-  padding: 0 30px; }
+  padding: 0 30px;
+}
 
 .none {
-  display: none; }
+  display: none;
+}
 
+.scroll-lock {
+  overflow: hidden;
+}
 
-@import "_adaptive"
+@import "_adaptive";
