@@ -679,6 +679,7 @@ footer {
     flex-direction: column;
     margin-bottom: calc((1vh + 1vw) * 6);
     padding-bottom: 0;
+    align-items: center;
   }
   .introduce__image {
     position: inherit;
